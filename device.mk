@@ -47,3 +47,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
